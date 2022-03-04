@@ -21,6 +21,7 @@
 .block-img {
     display: block;
     padding-top: 50px;
+    padding-bottom: 40px;
 }
 
 
@@ -31,20 +32,28 @@
         border: 8px solid rgba(255, 255, 255, 0.2);
 }
 
-.div-nav {
-      
-}
-
 .ul-nav {
    display: block;
 }
 
 .li-nav {
     list-style:none;
+    padding: 20px;
 }
 
 .a-nav {
     text-decoration: none;
+    color: #fff;
+}
+
+.position {
+    position: relative;
+    right: 15px;
+}
+
+.position-intereses {
+    position: relative;
+    right: 10px;
 }
 
 
