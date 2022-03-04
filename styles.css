@@ -1,0 +1,13 @@
+.navbar {
+    padding-left: 0;
+    padding-right: 0;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    height: 4000px;
+    background: black;
+    border-right: 4px solid hsl(0, 0%, 23%)
+}
