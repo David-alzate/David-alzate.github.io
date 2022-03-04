@@ -1,3 +1,9 @@
+nav {
+    font-family: 'Anton', sans-serif;
+}
+
+
+
 * {
     box-sizing: border-box;
 }
@@ -32,6 +38,11 @@
         border: 8px solid rgba(255, 255, 255, 0.2);
 }
 
+.div-nav {
+    font-size: 20px;
+
+}
+
 .ul-nav {
    display: block;
 }
@@ -44,6 +55,15 @@
 .a-nav {
     text-decoration: none;
     color: #fff;
+    font-weight: 800;
+    letter-spacing: 0.005rem;
+    opacity: 0.5;
+    
+}
+
+.a-nav:hover, .a-nav:focus {
+    color: #fff;
+    opacity: 1;
 }
 
 .position {
@@ -53,8 +73,13 @@
 
 .position-intereses {
     position: relative;
-    right: 10px;
+    right: 14px;
 }
 
+
+.position-experiencia, .position-habilidades {
+    position: relative;
+    right: 6px;
+}
 
 
