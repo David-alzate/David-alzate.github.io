@@ -82,20 +82,40 @@ nav {
 }
 
 .contenido {
-    margin-left: 280px;
+    margin-left: 264px;
+    font-family: 'Lalezar', cursive;
 }
-
-
 
 .nombre {
     line-height: 1;
     text-transform: uppercase;
+    font-family: 'Lalezar', cursive;
+    font-size: 6rem;
+    line-height: 1;
 }
 
 .github {
     color: #000;
+    margin: 10px;
 }
 
 .github:hover {
     color:  #3642a5 
+}
+
+
+.contenido-about {
+    margin: 270px 50px;
+    margin-right: 70px;
+}
+
+.descripcion {
+    font-size: 1.50rem;
+    padding-bottom: 50px;
+}
+
+.hr-about {
+    position: relative;
+    top: 20px;
+    left: 8px;
 }
