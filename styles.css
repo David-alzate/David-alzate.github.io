@@ -8,7 +8,7 @@ nav {
 
 .navbar {
     padding-left: 0;
-    padding-right: 0;
+    padding-right: 0px;
     position: fixed;
     text-align: center;
     top: 0px;
@@ -20,6 +20,7 @@ nav {
     background: black;
     border-right: 8px solid rgba(255, 255, 255, 0.2);
     color: white;
+    z-index: 10;
 }
 
 .block-img {
@@ -80,4 +81,10 @@ nav {
     right: 6px;
 }
 
+.contenido {
+    margin-left: 280px;
+}
 
+.contenido-about {
+    text-align: center;
+}
