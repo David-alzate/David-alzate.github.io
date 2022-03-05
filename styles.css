@@ -85,6 +85,9 @@ nav {
     margin-left: 280px;
 }
 
-.contenido-about {
-    text-align: center;
+
+
+.nombre {
+    line-height: 1;
+    text-transform: uppercase;
 }
