@@ -91,3 +91,11 @@ nav {
     line-height: 1;
     text-transform: uppercase;
 }
+
+.github {
+    color: #000;
+}
+
+.github:hover {
+    color:  #3642a5 
+}
