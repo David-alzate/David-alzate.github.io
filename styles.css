@@ -105,7 +105,7 @@ nav {
 
 
 .contenido-about {
-    margin: 270px 50px;
+    margin: 270px 80px;
     margin-right: 70px;
 }
 
@@ -118,4 +118,17 @@ nav {
     position: relative;
     top: 20px;
     left: 8px;
+}
+
+.contenido-experiencia {
+    margin: 50px 80px;
+    margin-right: 70px;
+}
+
+.experiencia {
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: 'Lalezar', cursive;
+    font-size: 6rem;
+    line-height: 1;
 }
