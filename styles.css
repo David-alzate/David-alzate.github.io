@@ -184,6 +184,20 @@ h6 {
     font-size: 20px;
 }
 
+.fechas-experiencia {
+    position: absolute;
+    left: 50em;
+    bottom: 160px;
+    font-size: 20px;
+}
+
+.fechas-web {
+    position: absolute;
+    left: 50em;
+    bottom: 490px;
+    font-size: 20px;
+}
+
 .contenido-experiencia {
     position: relative;
     top: 40em;
@@ -206,4 +220,82 @@ h6 {
     bottom: 74px;
     margin-right: 22em;
     
+}
+
+.contenido-habilidades {
+    position: relative;
+    top: 50em;
+    margin: 50px 80px;
+    margin-right: 70px;
+
+}
+
+.habilidades {
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: 'Lalezar', cursive;
+    font-size: 6rem;
+
+}
+
+.descripcion-habilidades {
+    color: #6c757d;
+    font-size: 25px;
+    position: relative;
+    bottom: 74px;
+    margin-right: 22em;
+    
+}
+
+
+.contenido-contacto {
+    position: relative;
+    top: 80em;
+    margin: 50px 80px;
+    margin-right: 70px;
+
+}
+
+
+.contacto {
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: 'Lalezar', cursive;
+    font-size: 6rem;
+
+}
+
+.descripcion-contacto {
+    color: #6c757d;
+    font-size: 23px;
+    position: relative;
+    top: 60px;
+    left: 50px;
+    background-color: red;
+    margin-right: 50em;
+    margin-top: 0px;
+
+    
+    
+}
+
+.iconos {
+    color: #6c757d;
+    text-decoration: none;
+
+}
+
+.iconos:hover {
+    color: #000;
+    text-decoration: none;
+
+}
+
+
+.contacto-final {
+    text-decoration: none;
+    font-size: 30px;
+    color: #6c757d;
+    
+
 }
