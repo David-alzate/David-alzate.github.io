@@ -253,6 +253,8 @@ h6 {
     top: 80em;
     margin: 50px 80px;
     margin-right: 70px;
+    height: 930px;
+    
 
 }
 
@@ -285,6 +287,18 @@ h6 {
 
 }
 
+.iconos-inicio {
+    color: #000;
+    text-decoration: none;
+
+}
+
+.iconos-inicio:hover {
+    color:  #6c757d;
+    text-decoration: none;
+
+}
+
 .iconos:hover {
     color: #000;
     text-decoration: none;
@@ -294,8 +308,43 @@ h6 {
 
 .contacto-final {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 40px;
+    color: #000;
+    
+
+}
+
+.contacto-final:hover {
+    text-decoration: none;
+    font-size: 40px;
     color: #6c757d;
     
 
+}
+
+.separacion-contacto {
+     margin-bottom: 30px;
+
+}
+
+.iconos-contacto {
+    color: #000;
+    text-decoration: none;
+    margin-right: 10px;
+  
+ 
+}
+
+.iconos-contacto:hover {
+    color: #6c757d;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.universidad {
+    color: #6c757d;
+}
+
+.universidad:hover {
+    color: #000;
 }
