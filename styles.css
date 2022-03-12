@@ -92,11 +92,10 @@ nav {
 }
 
 .nombre {
-    line-height: 1;
     text-transform: uppercase;
     font-family: 'Lalezar', cursive;
     font-size: 6rem;
-    line-height: 1;
+    
 }
 
 .github {
@@ -108,9 +107,9 @@ nav {
     color:  #3642a5 
 }
 
-
 .contenido-about {
-    margin: 270px 80px;
+    margin-top: 0px;
+    margin-left: 80px;
     margin-right: 70px;
 }
 
@@ -136,4 +135,34 @@ nav {
     font-family: 'Lalezar', cursive;
     font-size: 6rem;
     line-height: 1;
+}
+
+h6 {
+   font-size: 40px;
+
+}
+
+.descripcion-educacion {
+    color: #6c757d;
+    font-size: 25px;
+    position: relative;
+    bottom: 74px;
+}
+
+.promedio-educacion {
+    color: #6c757d;
+    font-size: 17px;
+    position: relative;
+    bottom: 100px;
+}
+
+.gpa {
+    bottom: 120px;
+}
+
+.fecha-educacion {
+    position: relative;
+    left: 50em;
+    bottom: 385px;
+    font-size: 20px;
 }
