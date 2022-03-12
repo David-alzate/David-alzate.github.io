@@ -6,6 +6,11 @@ nav {
     box-sizing: border-box;
 }
 
+body {
+    text-transform: uppercase;
+}
+
+
 .navbar {
     padding-left: 0;
     padding-right: 0px;
@@ -107,6 +112,15 @@ nav {
     color:  #3642a5 
 }
 
+.about {
+    position: relative;
+    bottom: 100px;
+}
+
+.contenido-sobremi {
+    position: relative;
+    top: 15em
+}
 .contenido-about {
     margin-top: 0px;
     margin-left: 80px;
@@ -114,8 +128,9 @@ nav {
 }
 
 .descripcion {
-    font-size: 1.50rem;
     padding-bottom: 50px;
+    color: #6c757d;
+    font-size: 25px;
 }
 
 .hr-about {
@@ -124,17 +139,19 @@ nav {
     left: 8px;
 }
 
-.contenido-experiencia {
+.contenido-educacion {
+    position: relative;
+    top: 25em;
     margin: 50px 80px;
     margin-right: 70px;
 }
 
-.experiencia {
+.educacion {
     line-height: 1;
     text-transform: uppercase;
     font-family: 'Lalezar', cursive;
     font-size: 6rem;
-    line-height: 1;
+
 }
 
 h6 {
@@ -160,9 +177,33 @@ h6 {
     bottom: 120px;
 }
 
-.fecha-educacion {
-    position: relative;
+.fechas {
+    position: absolute;
     left: 50em;
-    bottom: 385px;
+    bottom: 270px;
     font-size: 20px;
+}
+
+.contenido-experiencia {
+    position: relative;
+    top: 40em;
+    margin: 50px 80px;
+    margin-right: 70px;
+}
+
+.experiencia {
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: 'Lalezar', cursive;
+    font-size: 6rem;
+
+}
+
+.descripcion-experiencia {
+    color: #6c757d;
+    font-size: 25px;
+    position: relative;
+    bottom: 74px;
+    margin-right: 22em;
+    
 }
