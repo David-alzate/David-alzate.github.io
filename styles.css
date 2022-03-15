@@ -348,3 +348,15 @@ h6 {
 .universidad:hover {
     color: #000;
 }
+
+
+.idioma {
+    font-family: 'Russo One', sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    position: relative;
+    left: 1450px;
+
+}
