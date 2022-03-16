@@ -8,7 +8,11 @@ nav {
 
 body {
     text-transform: uppercase;
+    background: radial-gradient(#8e9eab, #eef2f3);
+    
 }
+
+
 
 
 .navbar {
@@ -22,9 +26,11 @@ body {
     flex-direction: column;
     width: 280px;
     height: 4000px;
-    background: black;
+    background: radial-gradient(#232526,#414345);
     color: white;
     z-index: 10;
+    border-right: 4px solid #000;
+  
 }
 
 .block-img {
@@ -56,7 +62,6 @@ body {
 }
 
 .a-nav {
-    background-color: #000;
     color: white;
     padding: 10px;
     display: block;
@@ -379,7 +384,7 @@ header{
     list-style: none;
   }
   #menu li>a{
-    background-color: #000;
+    
     color: white;
     padding: 10px;
     display: block;
