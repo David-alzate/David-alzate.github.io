@@ -23,7 +23,6 @@ body {
     width: 280px;
     height: 4000px;
     background: black;
-    border-right: 8px solid rgba(255, 255, 255, 0.2);
     color: white;
     z-index: 10;
 }
@@ -57,17 +56,17 @@ body {
 }
 
 .a-nav {
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    display: block;
     text-decoration: none;
-    color: #fff;
-    font-weight: 800;
-    letter-spacing: 0.005rem;
-    opacity: 0.5;
+}    
     
-}
 
 .a-nav:hover, .a-nav:focus {
-    color: #fff;
-    opacity: 1;
+    color: #000;
+    background-color: #eaeaea;
 }
 
 .position {
@@ -89,6 +88,25 @@ body {
 .position-experiencia, .position-habilidades {
     position: relative;
     right: 8px;
+}
+
+.position-idioma {
+    position: relative;
+    right: 55px;
+    bottom: 10px;
+
+}
+
+.position-ingles {
+    position: relative;
+    right: 20px;
+
+}
+
+.position-español {
+    position: relative;
+    right: 10px;
+
 }
 
 .contenido {
@@ -349,14 +367,34 @@ h6 {
     color: #000;
 }
 
-
-.idioma {
+header{
     font-family: 'Russo One', sans-serif;
-    background-color: #000;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 30px;
+    width: 1800px;
+    margin: 0 auto;
     position: relative;
-    left: 1450px;
+    right: 32px;
+    bottom: 16px;
+  }
+  ul{
+    list-style: none;
+  }
+  #menu li>a{
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    min-width: 100px;
+  }
+  #menu li>a:hover{
+    color: #000;
+    background-color: #eaeaea;
+  }
+  
+  #menu>li>ul{
+    display: none;
+  }
+  #menu>li:hover>ul {
+    display:block;
+  }
 
-}
