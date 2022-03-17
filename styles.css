@@ -125,6 +125,47 @@ html {
 
 }
 
+.position-about {
+    position: relative;
+    right: 30px;
+}
+
+.position-education {
+    position: relative;
+    right: 12px;
+}
+
+.position-experience {
+    position: relative;
+    right: 10px;
+}
+
+.position-skills {
+    position: relative;
+    right: 33px;
+}
+
+.position-Contact {
+    position: relative;
+    right: 25px;
+}
+
+.position-language {
+    position: relative;
+    right: 35px;
+    bottom: 15px;
+}
+
+.position-spanish {
+    position: relative;
+    right: 27px;
+}
+
+.position-english {
+    position: relative;
+    right: 27px;
+}
+
 .contenido {
     margin-left: 300px;
     font-family: 'Lalezar', cursive;
